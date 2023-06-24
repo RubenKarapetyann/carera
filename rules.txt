@@ -1,0 +1,33 @@
+    Code     
+    └──────┬   
+        │ Components
+        │   └──────┬ 
+        |           correct type of writing functions in components
+        │                               |
+        |               function declaration for big components
+        │               arrow function for small components
+        | Variables
+        │    └──────┬ 
+        |          consts should be uppercase - const NUM
+        │           variables should be camelCase - const userName
+        |           
+        |  Css
+        │   └──────┬ 
+        |           classNames
+        │               └──────┬ 
+        |                      example -> header-text      
+        |  quotes
+        │    └──────┬ 
+        |           should be ""
+        |  
+        |  conditional ope... 
+        |      └──────┬ 
+        |             should be condition ? trueExpretion:falseExpretion 
+
+        
+    GIT
+    └──────┬   
+        |  commits
+        │  │ └──────┬ 
+        |  │         example -> "created function in Component Nav"
+        │
