@@ -1,0 +1,10 @@
+1.Componentneri bajanum
+    componentner@ piti bajanvac linen fileri.
+
+2.Componentneri krkonrinakum
+    ete erku kam aveli componentneri funckionala nman e,urems erku componenti tex@ stexcum enq
+    mi komponent,u ayd komponent@ dnum enq similar components folderum.
+
+3.function types
+    function declaration mec componentneri hamar,
+    arrow function puchur componentneri hamar

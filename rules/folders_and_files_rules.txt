@@ -1,0 +1,9 @@
+1.Structuran
+    1.ayn inch ogtagorcvelu e module.cssum stexcelu enq srcum,mnacac@
+      inch ogtagorcvelu e sovorakan cssum publicum.
+    2.Errkrordakan filer@ pahum enq glxavori levelic aveli xor levelum voreve folderum,
+      orinak -> 🗀 Components, 🗎 WelcomeSection.js
+
+2.Anvanumner@
+    1.amen filin ev folderin talis enq krchat anvanumner,componentnerin talis enq 
+      anvanumner voronc verjum klini Section, orinak -> WelcomeSection
