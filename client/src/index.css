@@ -29,3 +29,17 @@ code {
 }
 
 
+@font-face {
+  font-family: Roboto;
+  src: url(../public/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Righteous;
+  src: url(../public/fonts/Righteous/Righteous-Regular.ttf);
+}
+
+@font-face {
+  font-family: Sansation;
+  src: url(../public/fonts/Sansation/Sansation-Regular.ttf);
+}
