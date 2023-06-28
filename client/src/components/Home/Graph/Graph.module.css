@@ -7,3 +7,14 @@
     align-items: center;
     color: white
 } 
+.graph-inner-container{
+    width: fit-content;
+    height: fit-content;
+    background-color: aquamarine;
+}
+
+.graphic{
+    width: 442px;
+    height: 327px;
+    background-color: #D9D9D9;
+}
