@@ -1,9 +1,10 @@
+import styles from "./Graph.module.css"
+
 
 
 function Graph(){
     return(
-        <div>
-            
+        <div className={styles["graph-container"]}>
         </div>
     )
 }
