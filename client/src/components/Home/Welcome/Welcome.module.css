@@ -32,3 +32,49 @@
     margin-left: -355px;
     position: relative;
 }
+
+.decorator {
+    width: 888px;
+    height: 690px;
+    flex-shrink: 0;
+    margin-top: -80px;
+    position: absolute;  
+}
+
+
+.text {
+    color: var(--pantone);
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+.welcome-button {
+    width: 84px;
+    height: 38px;
+    flex-shrink: 0;
+    background: var(--pantone);
+    color: var(--platinum);
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 700;
+    border: none;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+.welcome-img {
+    width: 666px;
+    height: 375px;
+    flex-shrink: 0;
+    margin-top: -120px;
+    position: relative;
+}
+
+
+.welcome-logos {
+    margin-left: 750px;
+}
+
+.welcome-logo {
+    padding-left: 36px;
+}
