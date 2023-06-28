@@ -5,7 +5,8 @@
     justify-content: center;
     height: 800px;
     width: 1620px;
-    margin: -90px 0 0 -90px;
+    margin-left: -100px; 
+    background-color: var(--black);
   }
   
   
@@ -37,7 +38,6 @@
     width: 888px;
     height: 690px;
     flex-shrink: 0;
-    margin-top: -80px;
     position: absolute;  
 }
 
@@ -69,7 +69,6 @@
     margin-top: -120px;
     position: relative;
 }
-
 
 .welcome-logos {
     margin-left: 750px;
