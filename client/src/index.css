@@ -43,3 +43,7 @@ code {
   font-family: Sansation;
   src: url(../public/fonts/Sansation/Sansation-Regular.ttf);
 }
+
+body::-webkit-scrollbar{
+  width: 0;
+}
