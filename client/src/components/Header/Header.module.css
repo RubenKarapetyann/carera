@@ -6,8 +6,6 @@ header{
     background-color: black;
 }
 .header-item{
-    height: 100%;
-    padding-top: 24px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 10px;
