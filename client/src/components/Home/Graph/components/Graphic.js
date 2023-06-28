@@ -14,7 +14,7 @@ const Graphic = ()=>{
                 display : "flex"
             }}>
                 <img
-                    src={countLine}
+                    src={priceIndex ? buyersLine : countLine}
                     alt="countLine" 
                     className={styles["count-line"]}
                 />
