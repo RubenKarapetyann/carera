@@ -1,9 +1,13 @@
 import styles from "../Graph.module.css"
 import countLine from "../../../../images/countLine.svg"
+import buyersLine from "../../../../images/buyersLine.svg"
 import timeLine from "../../../../images/timeline.svg"
 import GraphicVector from "./GraphicVector"
 
+import { useState } from "react"
+
 const Graphic = ()=>{
+    const [priceIndex,setPriceIndex] = useState(true)
     return(
         <div className={styles["graphic"]}>
             <div style={{
@@ -15,7 +19,7 @@ const Graphic = ()=>{
                     className={styles["count-line"]}
                 />
 
-                <GraphicVector/>
+                <GraphicVector priceIndex={priceIndex} setPriceIndex={setPriceIndex}/>
             </div>
             
             <img
