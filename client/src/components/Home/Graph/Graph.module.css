@@ -52,3 +52,9 @@
 .graphic-decription-container{
     margin-left: 20px;
 }
+
+.graph-description-text{
+    width: 603px;
+    font-size: 24px;
+    font-family: Roboto;
+}
