@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Welcome.module.css';
 import PageLogo from './components/PageLogo';
 import Text from '../../Global/Text';
@@ -8,6 +7,7 @@ import carImage from '../../../images/main_page_car.png';
 import logo1 from '../../../images/top_gear.png';
 import logo2 from '../../../images/nurburgring.png';
 import logo3 from '../../../images/Decorator.svg';
+
 
 function Welcome () {
     return (
