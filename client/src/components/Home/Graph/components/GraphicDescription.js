@@ -1,6 +1,7 @@
 import DescriptionPalette from "./DescriptionPalette"
 import styles from "../Graph.module.css"
 import Text from '../../../Global/Text'
+import Button from "../../../Global/Button"
 
 const GraphicDescription = ()=>{
     return(
@@ -15,6 +16,7 @@ const GraphicDescription = ()=>{
                 our supercars were bought by so many people, 
                 and that's why you also want to buy our products.
             </Text>
+            <Button buttonName={"view"} buttonClassName={styles["graph-description-button"]}/>
         </div>
     )
 }
