@@ -1,0 +1,27 @@
+.map-container {
+    width: 1366px;
+    height: 689px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+}
+
+.map-text {
+    width: 423px;
+    height: 74px;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    margin: 36px 0 0 95px;
+}
+
+.map-text-span1 {
+  margin-left: 40px;
+}
+
+.map-text-span2 {
+    margin-left: 90px;
+}
