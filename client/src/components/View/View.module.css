@@ -1,0 +1,41 @@
+.view-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background-color: var(--pantone);
+    margin-top: 60px;
+    padding-top: 15px;
+}
+
+.card {
+    display: flex;
+    gap: 36px;
+}
+
+.card-container {
+    width: 252px;
+    height: 370px;
+    background-color: #D9D9D9;
+}
+
+.carera-image {
+    width: 252px;
+    height: 164px;
+}
+
+.card-text {
+    width: 201px;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #3C3C3C;    
+}
+
+.text-container {
+    margin: -9px 24px 29px 26px;
+}
+
+.search {
+    margin-bottom: 71px;
+}
