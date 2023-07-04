@@ -1,0 +1,19 @@
+.card-title {
+    font-size: 36px;
+    font-family: Sansation;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: -6px;
+}
+
+.card-title > span {
+    color: var(--rust);
+    margin-left: 10px;
+}
+
+.card-price {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 700;
+    color: #000;
+}
