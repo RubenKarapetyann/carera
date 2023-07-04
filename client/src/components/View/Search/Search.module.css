@@ -1,9 +1,14 @@
-.search-input {
+.search-input, 
+.search-button {
     width: 50px;
     height: 50px;
     border-radius: 100px;
     background: #D9D9D9;
     border: none;
+}
+
+.search-input {
+    text-indent: 10%;
 }
 
 .search-input:focus {
@@ -16,8 +21,12 @@
     align-items: center;
 }
 
-.search-icon {
+.search-icon,
+.search-icon-input {
     width: 20px;
-    height: 20px;
-    margin: 9px 20px 7px -35px;
+    height: 20px;  
+}
+
+.search-icon-input {
+    margin-left: -35px;
 }
