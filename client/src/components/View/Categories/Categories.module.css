@@ -1,0 +1,21 @@
+.categories-container {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin: 0 48px 0 -157px;
+    align-items: flex-start;
+ }
+ 
+ .categories-button {
+     border: none;
+     background: none;
+     cursor: pointer;
+     color: #FFF;
+     font-size: 14px;
+     font-family: Roboto;
+     font-weight: 400;
+ }
+ 
+ .categories-button:hover {
+     font-weight: 700;
+ }
