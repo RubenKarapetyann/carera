@@ -30,7 +30,7 @@ function View() {
   }
 
   const renderCards = () => {
-    return cardData.map((card) => (
+    return filteredCardData.map((card) => (
       <div className={styles['card-container']} key={card.id}>
         <Card>
           <CardImage
@@ -50,7 +50,9 @@ function View() {
 
   return (
     <div className={styles['view-container']}>
-      <div className={styles['search']}><Search/></div>
+      <div className={styles['search']}>
+        <Search onSearch={handleSearch} />
+      </div>
       <div className={styles['card']}>
         <Categories/>
         {renderCards()}
