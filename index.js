@@ -1,6 +1,6 @@
 import express from "express"
-import { TEST } from "./contants/routes-contants.js"
-
+import { CARS, TEST } from "./contants/routes-contants.js"
+import fs from "fs"
 
 const app = express()
 
@@ -11,6 +11,22 @@ app.get(TEST,(req,res)=>{
         type : "test"
     })
 })
+
+app.get(CARS, (req,res)=>{
+    try{
+        const cars = fs.readFileSync("./database/data.json", { encoding : "utf-8", flag : "r" })
+        res.send({
+            access : true,
+            cars
+        })
+    }catch(err){
+        res.status(401).send({
+            access : false
+        })
+    }
+})
+
+
 
 
 
