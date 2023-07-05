@@ -3,7 +3,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './Search.module.css';
 
-function Search() {
+function Search({ onSearch }) {
   const [inputVisible, setInputVisible] = useState(false)
 
 
@@ -15,6 +15,10 @@ function Search() {
     setInputVisible(false)
   }
 
+  const handleSearch = (event) => {
+    const query = event.target.value
+    onSearch(query)
+  }
 
   const inputStyle = {
     width: inputVisible ? '200px' : '50px',
@@ -40,6 +44,7 @@ function Search() {
             type="text"
             style={inputStyle}
             onBlur={handleBlur}
+            onChange={handleSearch}
           />
           <FontAwesomeIcon className={styles['search-icon-input']} icon={faSearch} />
         </div>
