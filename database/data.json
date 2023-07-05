@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "careraG4",
+        "image": "careraG4.png",
         "alt": "careraG4",
         "title": "CARERA",
         "model": "G4",
@@ -9,7 +9,7 @@
         "price": "$3,2M"
     },{
         "id": 2,
-        "image": "careraS8",
+        "image": "careraS8.png",
         "alt": "careraS8",
         "title": "CARERA",
         "model": "S8",
@@ -17,7 +17,7 @@
         "price": "$3,5M"
     },{
         "id": 3,
-        "image": "careraB2",
+        "image": "careraB2.png",
         "alt": "careraB2",
         "title": "CARERA",
         "model": "B2",

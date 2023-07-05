@@ -3,8 +3,7 @@ import { CARS, TEST } from "./contants/routes-contants.js"
 import fs from "fs"
 
 const app = express()
-
-
+app.use(express.static("./images"))
 
 app.get(TEST,(req,res)=>{
     res.send({
@@ -12,12 +11,13 @@ app.get(TEST,(req,res)=>{
     })
 })
 
+
 app.get(CARS, (req,res)=>{
     try{
         const cars = JSON.parse(fs.readFileSync("./database/data.json", { encoding : "utf8", flag : "r" }))
         res.send({
             access : true,
-            cars
+            cars 
         })
     }catch(err){
         res.status(401).send({
@@ -25,8 +25,6 @@ app.get(CARS, (req,res)=>{
         })
     }
 })
-
-
 
 
 

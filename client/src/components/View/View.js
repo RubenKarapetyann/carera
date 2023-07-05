@@ -6,19 +6,16 @@ import CardTitle from './Card/components/CradTitle'
 import CardPrice from './Card/components/CardPrice'
 import Text from '../Global/Text'
 import Categories from './Categories/Categories'
-import { CARERAG4DATA } from './Card/components/CardConstant';
-import { CARERAS8DATA } from './Card/components/CardConstant';
-import { CARERAB2DATA } from './Card/components/CardConstant';
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 function View() {
-  const cardData = [CARERAG4DATA, CARERAS8DATA, CARERAB2DATA];
+  const [cardData, setCardData] = useState([])
 
   useEffect(()=>{
     fetch("/cars")
       .then(response=>response.json())
       .then(res=>{
-        console.log(res);
+        setCardData(res.cars)
       })
   },[])
 
