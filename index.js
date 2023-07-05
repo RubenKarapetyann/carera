@@ -14,7 +14,7 @@ app.get(TEST,(req,res)=>{
 
 app.get(CARS, (req,res)=>{
     try{
-        const cars = fs.readFileSync("./database/data.json", { encoding : "utf-8", flag : "r" })
+        const cars = JSON.parse(fs.readFileSync("./database/data.json", { encoding : "utf8", flag : "r" }))
         res.send({
             access : true,
             cars

@@ -9,9 +9,18 @@ import Categories from './Categories/Categories'
 import { CARERAG4DATA } from './Card/components/CardConstant';
 import { CARERAS8DATA } from './Card/components/CardConstant';
 import { CARERAB2DATA } from './Card/components/CardConstant';
+import { useEffect } from 'react'
 
 function View() {
   const cardData = [CARERAG4DATA, CARERAS8DATA, CARERAB2DATA];
+
+  useEffect(()=>{
+    fetch("/cars")
+      .then(response=>response.json())
+      .then(res=>{
+        console.log(res);
+      })
+  },[])
 
   const renderCards = () => {
     return cardData.map((card) => (
