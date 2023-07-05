@@ -10,14 +10,24 @@ import { useEffect, useState } from 'react'
 
 function View() {
   const [cardData, setCardData] = useState([])
+  const [filteredCardData, setFilteredCardData] = useState([])
 
   useEffect(()=>{
     fetch("/cars")
       .then(response=>response.json())
       .then(res=>{
         setCardData(res.cars)
+        setFilteredCardData(res.cars)
       })
   },[])
+
+
+  const handleSearch = (query) => {
+    const filteredCards = cardData.filter((card) =>
+      card.alt.toLowerCase().includes(query.toLowerCase().split(" ").join(""))
+    );
+    setFilteredCardData(filteredCards)
+  }
 
   const renderCards = () => {
     return cardData.map((card) => (
