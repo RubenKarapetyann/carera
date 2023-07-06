@@ -7,10 +7,12 @@ import CardPrice from './Card/components/CardPrice'
 import Text from '../Global/Text'
 import Categories from './Categories/Categories'
 import { useEffect, useState } from 'react'
+import { CATEGORIES } from '../../constants/constants'
 
 function View() {
   const [cardData, setCardData] = useState([])
   const [filteredCardData, setFilteredCardData] = useState([])
+  const [active, setActive] = useState(CATEGORIES[0].activeName)
 
   useEffect(()=>{
     fetch("/cars")
