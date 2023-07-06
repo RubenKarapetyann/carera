@@ -1,9 +1,10 @@
 import styles from './Categories.module.css'
 import Button from '../../Global/Button';
 
-function Categories({state, statefunc, categories}) {
+function Categories({state, statefunc, categories, filterByCategorie}) {
     const handleActive = (activeName) => {
       statefunc(activeName)
+      filterByCategorie(activeName)
     }
     return (
       <div className={styles['categories-container']}>

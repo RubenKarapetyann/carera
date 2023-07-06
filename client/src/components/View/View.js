@@ -23,6 +23,15 @@ function View() {
       })
   },[])
 
+  const filterByCategorie = (activname) => {
+    const filteredCardsByCategories = cardData.filter((card) => {
+      if(activname === "ALL CARS") return card
+      const thisyear = String(new Date().getFullYear())
+      if(activname === "CURRENT YEAR" && card.year === thisyear) return card
+      if(activname === "PREVIOUS YEARS" && card.year < thisyear) return card
+    })
+    setFilteredCardData(filteredCardsByCategories)
+  }
 
   const handleSearch = (query) => {
     const filteredCards = cardData.filter((card) =>
@@ -56,7 +65,7 @@ function View() {
         <Search onSearch={handleSearch} />
       </div>
       <div className={styles['card']}>
-        <Categories state={active} statefunc={setActive} categories={CATEGORIES}/>
+        <Categories state={active} statefunc={setActive} categories={CATEGORIES} filterByCategorie={filterByCategorie}/>
         {renderCards()}
       </div>
     </div>
