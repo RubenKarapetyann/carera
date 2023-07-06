@@ -6,7 +6,8 @@
         "title": "CARERA",
         "model": "G4",
         "description": "Carera G4 is a car from the previous generation, made from a combination of carbon and steel alloys. It is one of our durable models...",
-        "price": "$3,2M"
+        "price": "$3,2M",
+        "year": "2022"
     },{
         "id": 2,
         "image": "CareraS8.png",
@@ -14,7 +15,8 @@
         "title": "CARERA",
         "model": "S8",
         "description": "Carera S8 is the latest model in the family, developed in 2023. A multitude of skilled experts from around the world worked on the design of the car...",
-        "price": "$3,5M"
+        "price": "$3,5M",
+        "year": "2023"
     },{
         "id": 3,
         "image": "CareraB2.png",
@@ -22,7 +24,8 @@
         "title": "CARERA",
         "model": "B2",
         "description": "Carera B2 is a 2021 model, manufactured in Germany. It is popular in European countries and is known for being one of the fast and agile models...",
-        "price": "$2,9M"
+        "price": "$2,9M",
+        "year": "2021"
     }
 ]
   
