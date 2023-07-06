@@ -56,7 +56,7 @@ function View() {
         <Search onSearch={handleSearch} />
       </div>
       <div className={styles['card']}>
-        <Categories state={active} statefunc={setActive}/>
+        <Categories state={active} statefunc={setActive} categories={CATEGORIES}/>
         {renderCards()}
       </div>
     </div>
