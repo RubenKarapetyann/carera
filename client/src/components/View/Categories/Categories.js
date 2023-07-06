@@ -9,7 +9,8 @@ function Categories({state, statefunc}) {
           return <Button 
           buttonName={category.name}
           buttonClassName={styles['categories-button']} 
-          key = {category.id}/>
+          key = {category.id}
+          styles = {{fontFamily: category.activeName === state ? "Righteous" : ""}}/>
         })}
       </div>
     );
