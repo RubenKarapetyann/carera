@@ -15,3 +15,21 @@ export const HEADER_ITEMS = [
         RouteName : ROUTES.VIEW
     }
 ]
+
+export const CATEGORIES = [
+    {
+        name: "All Cars",
+        activeName: "ALL CARS", 
+        id: 1,
+      },
+      {
+        name: "Current Year",
+        activeName: "CURRENT YEAR",
+        id: 2,
+      },
+      {
+        name: "Previous Years",
+        activeName: "PREVIOUS YEARS",
+        id: 3,
+      }
+]
