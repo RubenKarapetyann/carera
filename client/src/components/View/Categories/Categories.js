@@ -2,7 +2,7 @@ import styles from './Categories.module.css'
 import Button from '../../Global/Button';
 import { CATEGORIES } from '../../../constants/constants'
 
-function Categories() {
+function Categories({state, statefunc}) {
     return (
       <div className={styles['categories-container']}>
         {CATEGORIES.map(category => {
