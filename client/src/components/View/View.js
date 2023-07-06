@@ -23,8 +23,9 @@ function View() {
       })
   },[])
 
-  const filterByCategorie = (activname) => {
-    const filteredCardsByCategories = cardData.filter((card) => {
+  const filterByCategorie = (activname, arrdata) => {
+    const data = arrdata ? arrdata : cardData
+    const filteredCardsByCategories = data.filter((card) => {
       if(activname === "ALL CARS") return card
       const thisyear = String(new Date().getFullYear())
       if(activname === "CURRENT YEAR" && card.year === thisyear) return card
@@ -38,6 +39,7 @@ function View() {
       card.alt.toLowerCase().includes(query.toLowerCase().split(" ").join(""))
     );
     setFilteredCardData(filteredCards)
+    filterByCategorie(active, filteredCards)
   }
 
   const renderCards = () => {
