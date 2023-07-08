@@ -1,5 +1,5 @@
 import express from "express"
-import { CARS, TEST } from "./contants/routes-contants.js"
+import { CARS, TEST, CAR } from "./contants/routes-contants.js"
 import fs from "fs"
 
 const app = express()
@@ -26,6 +26,23 @@ app.get(CARS, (req,res)=>{
     }
 })
 
+
+
+app.get(CAR, (req,res)=>{
+    try{
+        const { id } = req.params
+        const cars = JSON.parse(fs.readFileSync("./database/data.json", { encoding : "utf8", flag : "r" }))
+        const currentCar = cars.find(car=>car.id===+id)
+        res.send({
+            access : true,
+            car : {...currentCar.characteristics}
+        })
+    }catch(err){
+        res.status(401).send({
+            access : false
+        })
+    }
+})
 
 
 app.listen(process.env.PORT || 3010,()=>{
