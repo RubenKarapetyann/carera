@@ -45,7 +45,7 @@ function View() {
   const renderCards = () => {
     return filteredCardData.map((card) => (
       <div className={styles['card-container']} key={card.id}>
-        <Card>
+        <Card id={card.id}>
           <CardImage
             src={card.image}
             imageClassName={styles['carera-image']}

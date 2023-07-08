@@ -3,7 +3,7 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import styles from '../Page3D.module.css';
 
 
-const ArrowFont = () => {
+const ArrowFont = ({ backHandle }) => {
 
     return (
         <button className={styles['page3D-button']} onClick={backHandle}>

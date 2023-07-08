@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from "react-router-dom"
 
-const Card = ({ children }) => {
+const Card = ({ children, id }) => {
   return (
-    <div>
+    <Link style={{textDecoration : "none"}} to={"/car/"+id}>
       {children}
-    </div>
+    </Link>
   );
 };
 
