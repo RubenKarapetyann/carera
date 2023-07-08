@@ -8,6 +8,7 @@ import CarColor from './components/CarColor'
 
 function Page3D() {
     const [data, setData] = useState({});
+    const [activeColor, setActiveColor] = useState(null)
     const { id } = useParams()
 
     useEffect(() => {
@@ -20,18 +21,20 @@ function Page3D() {
             const response = await fetch("/car/"+id);
             const jsonData = await response.json();
             setData(jsonData.car);
+            setActiveColor(jsonData.car.colors[0])
         } catch (error) {
             console.error('Error fetching data:', error);
         }
     };
 
+    const colorHandle = (color)=> setActiveColor(color)
     return (
         <div className={styles['page3D-container']}>
         <ArrowFont/>
         <Description car={data}/>
             <Canvas>
             </Canvas>
-        <CarColor/>
+        <CarColor colorHandle={colorHandle} colors={data.colors} />
     </div>
     )
 }
