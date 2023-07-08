@@ -1,10 +1,12 @@
 import { Canvas } from '@react-three/fiber';
 import styles from './Page3D.module.css';
-import { useParams } from 'react-router';
-import { useEffect, useState } from 'react';
 import ArrowFont from './components/ArrowFont'
 import Description from './components/Description'
 import CarColor from './components/CarColor'
+import { Suspense } from 'react';
+import { useParams } from 'react-router';
+import { useEffect, useState } from 'react';
+import { OrbitControls } from '@react-three/drei';
 
 function Page3D() {
     const [data, setData] = useState({});
@@ -32,8 +34,18 @@ function Page3D() {
         <div className={styles['page3D-container']}>
         <ArrowFont/>
         <Description car={data}/>
-            <Canvas>
+        <Suspense>
+            <Canvas camera={{
+                fov : 90,
+                position : [8,5,7]
+            }}>
+
+                <directionalLight intensity={0.5} position={[8,5,7]}/>
+                <directionalLight intensity={1} position={[5,8,5]}/>
+                <ambientLight intensity={1}/>
+                <OrbitControls enableZoom={false}/>
             </Canvas>
+        </Suspense>
         <CarColor colorHandle={colorHandle} colors={data.colors} />
     </div>
     )
