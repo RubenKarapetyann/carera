@@ -1,6 +1,6 @@
 import styles from '../Page3D.module.css';
 
-const Description = ({ car }) => {
+const Description = ({ car={} }) => {
     return (
         <div className={styles['description-container']}>
             <div className={styles['description-text']}>

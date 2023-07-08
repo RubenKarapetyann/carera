@@ -1,7 +1,7 @@
 import styles from '../Page3D.module.css';
 import Button from '../../Global/Button';
 
-const CarColor = ({ colors }) => {
+const CarColor = ({ colors={} }) => {
     return (
         <div className={styles['carColor-container']}>
             {colors && colors.map((color,i)=>{
