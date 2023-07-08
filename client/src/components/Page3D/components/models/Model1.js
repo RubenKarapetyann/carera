@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
-export default function Model({ color }) {
+export default function Model1({ color }) {
   const group = useRef()
   const { nodes, materials } = useGLTF("/models/porshce_911_4S.glb");
   return (
@@ -19,7 +19,7 @@ export default function Model({ color }) {
                 castShadow
                 receiveShadow
                 geometry={nodes.boot_0.geometry}
-                material={materials.full_black}
+                // material={materials.full_black}
               />
             </group>
             <group name="boot001">
@@ -28,8 +28,8 @@ export default function Model({ color }) {
                 castShadow
                 receiveShadow
                 geometry={nodes.boot001_0.geometry}
-                material={materials.paint}
-              />
+                // material={materials.paint}
+              ><meshStandardMaterial color={color}/> </mesh>
             </group>
             <group name="boot002">
               <mesh
@@ -37,8 +37,8 @@ export default function Model({ color }) {
                 castShadow
                 receiveShadow
                 geometry={nodes.boot002_0.geometry}
-                material={materials.paint}
-              />
+                // material={materials.paint}
+              ><meshStandardMaterial color={color}/> </mesh>
             </group>
             <group name="boot003" position={[0, 0.003, 0]}>
               <mesh
@@ -64,8 +64,8 @@ export default function Model({ color }) {
                 castShadow
                 receiveShadow
                 geometry={nodes.boot005_0.geometry}
-                material={materials.paint}
-              />
+                // material={materials.paint}
+              ><meshStandardMaterial color={color}/> </mesh>
             </group>
             <group name="boot006">
               <mesh
@@ -91,8 +91,8 @@ export default function Model({ color }) {
                 castShadow
                 receiveShadow
                 geometry={nodes.boot008_0.geometry}
-                material={materials.paint}
-              />
+                // material={materials.paint}
+              ><meshStandardMaterial color={color}/> </mesh>
             </group>
             <group name="boot009">
               <mesh
@@ -334,8 +334,8 @@ export default function Model({ color }) {
                 castShadow
                 receiveShadow
                 geometry={nodes.Plane002_0.geometry}
-                material={materials.paint}
-              />
+                // material={materials.paint}
+              ><meshStandardMaterial color={color}/> </mesh>
             </group>
             <group
               name="Plane003"
@@ -348,8 +348,8 @@ export default function Model({ color }) {
                 castShadow
                 receiveShadow
                 geometry={nodes.Plane003_0.geometry}
-                material={materials.paint}
-              />
+                // material={materials.paint}
+              ><meshStandardMaterial color={color}/> </mesh>
             </group>
             <group
               name="Plane004"
@@ -362,8 +362,8 @@ export default function Model({ color }) {
                 castShadow
                 receiveShadow
                 geometry={nodes.Plane004_0.geometry}
-                material={materials.paint}
-              />
+                // material={materials.paint}
+              ><meshStandardMaterial color={color}/> </mesh>
             </group>
             <group
               name="Plane005"
