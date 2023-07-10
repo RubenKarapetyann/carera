@@ -7,6 +7,7 @@ import carImage from '../../../images/main_page_car.png';
 import logo1 from '../../../images/top_gear.png';
 import logo2 from '../../../images/nurburgring.png';
 import logo3 from '../../../images/Decorator.svg';
+import { Link } from 'react-router-dom';
 
 
 function Welcome () {
@@ -22,7 +23,9 @@ function Welcome () {
               but fast growing company that provides fast,<br/> 
               technological and unique cars
             </Text>
-            <Button buttonName="read more" buttonClassName={styles['welcome-button']}/>
+            <Link to ="/">
+              <Button buttonName="read more" buttonClassName={styles['welcome-button']}/>
+            </Link>
           </div>
           <WelcomeImage src={carImage} imageClassName={styles['welcome-img']} alt="Car"/>
           <div className={styles["welcome-logos"]}>
