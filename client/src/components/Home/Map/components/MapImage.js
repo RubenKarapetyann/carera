@@ -1,9 +1,9 @@
 import "../MapVector.css"
-import { MAPVECTOR } from "../components/MapVector"
+import { MapVector } from "../components/MapVector"
 
 const MapImage = () => {
   return (
-    MAPVECTOR
+    <MapVector/>
   )
 }
 
