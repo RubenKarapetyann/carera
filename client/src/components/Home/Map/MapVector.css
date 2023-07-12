@@ -1,3 +1,7 @@
+.seller-countries{
+    fill: #F59D00;
+}
+
 .seller-countries:hover {
     fill: #f50000;
     cursor: pointer;
