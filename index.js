@@ -1,5 +1,5 @@
 import express from "express"
-import { CARS, TEST, CAR } from "./contants/routes-contants.js"
+import { CARS, TEST, CAR, MAP } from "./contants/routes-contants.js"
 import fs from "fs"
 
 const app = express()
@@ -36,6 +36,20 @@ app.get(CAR, (req,res)=>{
         res.send({
             access : true,
             car : {...currentCar.characteristics}
+        })
+    }catch(err){
+        res.status(401).send({
+            access : false
+        })
+    }
+})
+
+app.get(MAP, (req,res)=>{
+    try{
+        const mapdata = fs.readFileSync("./database/mapdata.json", { encoding : "utf8", flag : "r" })
+        res.send({
+            access : true,
+            mapdata
         })
     }catch(err){
         res.status(401).send({

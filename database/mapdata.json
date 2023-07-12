@@ -1,0 +1,58 @@
+[
+    {
+        "country-name":"Armenia",
+        "country-id": "56"
+    },
+    {
+        "country-name":"Georgia",
+        "country-id": "42"
+    },
+    {
+        "country-name":"Lebanon",
+        "country-id":"45"
+    },
+    {
+        "country-name":"SaudiArabia",
+        "country-id": "48"
+    },
+    {
+        "country-name":"UAE",
+        "country-id": "49"
+    },
+    {
+        "country-name":"Egypt",
+        "country-id": "121"
+    },
+    {
+        "country-name":"Greece",
+        "country-id": 21
+    },
+    {
+        "country-name":"Germany",
+        "country-id": "29"
+    },
+    {
+        "country-name":"France",
+        "country-id": "32"
+    },
+    {
+        "country-name":"Colombia",
+        "country-id": "104"
+    },
+    {
+        "country-name":"Perou",
+        "country-id": "110"
+    },
+    {
+        "country-name":"Chile",
+        "country-id": "115"
+    },
+    {
+        "country-name":"China",
+        "country-id": 81
+    },
+    {
+        "country-name":"Japon",
+        "country-id": "82"
+    }
+]
