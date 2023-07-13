@@ -1,10 +1,9 @@
 import requests
-import json
 
 link = "http://localhost:5000/map"
 
 req = requests.get(link)
-data = json.loads(req.json()["mapdata"])
+data = req.json()["mapdata"]
 countries_id = []
 
 for item in data:

@@ -46,7 +46,7 @@ app.get(CAR, (req,res)=>{
 
 app.get(MAP, (req,res)=>{
     try{
-        const mapdata = fs.readFileSync("./database/mapdata.json", { encoding : "utf8", flag : "r" })
+        const mapdata = JSON.parse(fs.readFileSync("./database/mapdata.json", { encoding : "utf8", flag : "r" }))
         res.send({
             access : true,
             mapdata
