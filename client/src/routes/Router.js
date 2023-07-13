@@ -13,6 +13,7 @@ function Router(){
             <Route path={ROUTES.HOME} element={<Home/>}/>
             <Route path={ROUTES.VIEW} element={<View/>}/>
             <Route path={ROUTES.CAR} element={<Car/>}/>
+            <Route path={ROUTES.AUTOSERVICE} element={<p>hi from autoservice</p>}/>
         </Routes>
     )
 }
