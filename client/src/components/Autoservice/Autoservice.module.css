@@ -1,0 +1,7 @@
+.autoservice {
+    height: 100vh;
+    background-color: var(--pantone);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
