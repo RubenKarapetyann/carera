@@ -5,3 +5,38 @@
     justify-content: center;
     align-items: center;
 }
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    width: 416px;
+    height: 82px;
+    border-radius: 10px;
+    background: var(--night);
+    margin: 5px 20px 0 0;
+} 
+
+.menu-container > h1 {
+    width: 220px;
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 70px;
+}
+
+.arrow-icon {
+    width: 40px;
+    height: 30px;
+    color: #FFF;
+}
+
+.menu-list > li {
+    list-style: none;
+    color: #FFF;
+    margin: 10px 0 0 120px;
+
+}
