@@ -1,7 +1,8 @@
 export const ROUTES = {
     HOME : "home",
     VIEW : "view",
-    CAR : "car/:id"
+    CAR : "car/:id",
+    AUTOSERVICE : "autoservice/:id"
 }
 
 export const HEADER_ITEMS = [
