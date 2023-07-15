@@ -1,3 +1,7 @@
+import Model1 from "../components/Page3D/components/models/Model1"
+import { Model2 } from "../components/Page3D/components/models/Model2"
+import { Model3 } from "../components/Page3D/components/models/Model3"
+
 export const ROUTES = {
     HOME : "home",
     VIEW : "view",
@@ -34,3 +38,10 @@ export const CATEGORIES = [
         id: 3,
       }
 ]
+
+
+export const CARS_MODELS = {
+  "S8" : (color)=><Model1 color={color}/>,
+  "B2" : (color)=><Model2 color={color}/>,
+  "G4" : (color)=><Model3 color={color}/>
+}
