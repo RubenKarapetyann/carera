@@ -43,7 +43,7 @@ function Page3D() {
             }}>
 
                 {/* <Model1 color={activeColor}/> */}
-                <Model2 color={activeColor}/>
+                {/* <Model2 color={activeColor}/> */}
                 <directionalLight intensity={0.5} position={[8,5,7]}/>
                 <directionalLight intensity={1} position={[5,8,5]}/>
                 <ambientLight intensity={1}/>
