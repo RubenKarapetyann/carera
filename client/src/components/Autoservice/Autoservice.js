@@ -1,6 +1,7 @@
 import styles from './Autoservice.module.css';
 import AutoserviceList from './components/AutoserviceList';
 import Logo from './components/Logo';
+import GoogleMap from './components/GoogleMap';
 
 function Autoservice () {
     return (
@@ -9,6 +10,7 @@ function Autoservice () {
                 <AutoserviceList/>
                 <Logo/>
             </div>
+            <GoogleMap/>
         </div>
     )
 }
