@@ -7,8 +7,8 @@ import Icons from '../BottomPart/components/Icons';
 
 function BottomPart() {
     return (
-        <div className={styles["bottom"]} >
-            <Text id="bottomText" textClassName={styles["bottom-text"]}>
+        <div className={styles["bottom"]}>
+            <Text textClassName={styles["bottom-text"]}>
                 Introducing CarEra, where innovation meets speed and luxury! We area young, fast-growing company<br/>
                 that specializes in crafting high-end, supercars that redefine the boundaries of automotive excellence.<br/>
                 Our exceptional lineup features a series of supercars that have not only gained international<br/> 
@@ -21,7 +21,7 @@ function BottomPart() {
                 of skilled engineers and designers work tirelessly to ensure that each car bearing the CarEra emblem<br/> 
                 represents the pinnacle of automotive engineering and design.
             </Text>
-            <div className={styles["icons"]}>
+            <div className={styles["icons"]} id="bottomIcon">
                 <Icons path="https://www.youtube.com/" src={icon1} imageClassName={styles['icon1']} alt="icon"/>
                 <Icons path="https://web.telegram.org/k/" src={icon2} imageClassName={styles['icon2']} alt="icon"/>
                 <Icons path="https://www.linkedin.com/?original_referer=https%3A%2F%2Fyandex.ru%2F" src={icon3} imageClassName={styles['icon3']} alt="icon"/>
