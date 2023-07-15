@@ -19,13 +19,13 @@ const AutoserviceList = () => {
             {isOpen && (
                 <div>
                     <ul className={styles['menu-list']}>
-                        <li>Menu item 1</li>
-                        <li>Menu item 2</li>
-                        <li>Menu item 3</li>
-                        <li>Menu item 4</li>
-                        <li>Menu item 5</li>
-                        <li>Menu item 6</li>
-                        <li>Menu item 7</li>
+                    <li><p>Menu item 1</p></li>
+                    <li><p>Menu item 2</p></li>
+                    <li><p>Menu item 3</p></li>
+                    <li><p>Menu item 4</p></li>
+                    <li><p>Menu item 5</p></li>
+                    <li><p>Menu item 6</p></li>
+                    <li><p>Menu item 7</p></li>
                     </ul>
                 </div>
                 

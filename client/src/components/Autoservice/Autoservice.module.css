@@ -43,8 +43,19 @@
 .menu-list > li {
     list-style: none;
     color: #FFF;
-    margin: 10px 0 0 120px;
+    margin-top: 10px;
+    height: 30.9px;
+}
 
+.menu-list {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 376px;
+    margin-top: -6px;
+}
+
+.menu-list li > p {
+    margin-left: 120px;
 }
 
 .logo {
