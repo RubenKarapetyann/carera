@@ -46,6 +46,11 @@ code {
   src: url(../public/fonts/Sansation/Sansation-Regular.ttf);
 }
 
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(../public/fonts/Roboto/RobotoCondensed-Bold.ttf);
+}
+
 body::-webkit-scrollbar{
   width: 0;
   /* height: 0; */

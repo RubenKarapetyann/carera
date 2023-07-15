@@ -5,7 +5,8 @@ import { Model3 } from "../components/Page3D/components/models/Model3"
 export const ROUTES = {
     HOME : "home",
     VIEW : "view",
-    CAR : "car/:id"
+    CAR : "car/:id",
+    AUTOSERVICE : "autoservice/:id"
 }
 
 export const HEADER_ITEMS = [
