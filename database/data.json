@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "CareraG4.png",
+        "image": "CareraG4.jpg",
         "alt": "CareraG4",
         "title": "CARERA",
         "model": "G4",
@@ -18,7 +18,7 @@
         }  
     },{
         "id": 2,
-        "image": "CareraS8.png",
+        "image": "CareraS8.jpg",
         "alt": "CareraS8",
         "title": "CARERA",
         "model": "S8",
@@ -35,7 +35,7 @@
         } 
     },{
         "id": 3,
-        "image": "CareraB2.png",
+        "image": "CareraB2.jpg",
         "alt": "CareraB2",
         "title": "CARERA",
         "model": "B2",
