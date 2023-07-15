@@ -12,7 +12,7 @@ import { useGLTF } from "@react-three/drei";
 export function Model3({color}) {
   const { nodes, materials } = useGLTF("/models/porsche_gt_2003.glb");
   return (
-    <group dispose={null}>
+    <group dispose={null} scale={2.5}>
       <group
         position={[0, -0.007, 0.087]}
         rotation={[3.135, 0, Math.PI]}
@@ -22,8 +22,8 @@ export function Model3({color}) {
           castShadow
           receiveShadow
           geometry={nodes.Object_4.geometry}
-          material={materials.Main_Paint}
-        />
+        //   material={materials.Main_Paint}
+        ><meshStandardMaterial color={color}/></mesh>
         <mesh
           castShadow
           receiveShadow
