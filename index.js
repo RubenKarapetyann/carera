@@ -35,7 +35,7 @@ app.get(CAR, (req,res)=>{
         const currentCar = cars.find(car=>car.id===+id)
         res.send({
             access : true,
-            car : {...currentCar.characteristics}
+            car : {...currentCar.characteristics, model : currentCar.model}
         })
     }catch(err){
         res.status(401).send({
