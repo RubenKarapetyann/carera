@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+.autoservice-menu {
+    display: flex;
+    flex-direction: column;
+}
+
 .menu-container {
     display: flex;
     align-items: center;
