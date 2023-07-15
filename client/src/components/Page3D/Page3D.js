@@ -8,6 +8,7 @@ import { useParams } from 'react-router';
 import { useEffect, useState } from 'react';
 import { OrbitControls } from '@react-three/drei';
 import Model1 from './components/models/Model1';
+import { Model2 } from './components/models/Model2';
 
 function Page3D() {
     const [data, setData] = useState({});
@@ -41,7 +42,8 @@ function Page3D() {
                 position : [8,5,7]
             }}>
 
-                <Model1 color={activeColor}/>
+                {/* <Model1 color={activeColor}/> */}
+                <Model2 color={activeColor}/>
                 <directionalLight intensity={0.5} position={[8,5,7]}/>
                 <directionalLight intensity={1} position={[5,8,5]}/>
                 <ambientLight intensity={1}/>
