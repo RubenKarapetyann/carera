@@ -5,9 +5,15 @@ import styles from '../Autoservice.module.css';
 
 const AutoserviceList = ({autoservices}) => {
     const [isOpen, setIsOpen] = useState(false);
+    const [selectedItem, setSelectedItem] = useState("")
+
     const toggleMenu = () => {
         setIsOpen(!isOpen);  
     };
+
+    const handleSelectItem = (name) => {
+        setSelectedItem(name)
+    }
 
     return (
         <div className={styles['autoservice-container']}>
@@ -18,7 +24,7 @@ const AutoserviceList = ({autoservices}) => {
             {isOpen && 
                 <div>
                     <ul className={styles['menu-list']}>
-                        {autoservices && autoservices.map(autoservice => <li><p>{autoservice["name"]}</p></li>)}
+                        {autoservices && autoservices.map(autoservice => <li key={autoservice["id"]} onClick={() => handleSelectItem(autoservice["name"])}><p>{autoservice["name"]}</p></li>)}
                     </ul>
                 </div>
             }
