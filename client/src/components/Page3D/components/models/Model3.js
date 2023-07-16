@@ -16,7 +16,7 @@ export function Model3({color}) {
       <group
         position={[0, -0.007, 0.087]}
         rotation={[3.135, 0, Math.PI]}
-        scale={0.869}
+        scale={1.1}
       >
         <mesh
           castShadow

@@ -8,11 +8,13 @@ import { useParams } from 'react-router';
 import { useEffect, useState } from 'react';
 import { OrbitControls } from '@react-three/drei';
 import { CARS_MODELS } from '../../constants/constants';
+import Loading from '../Global/loading/Loading';
 
 function Page3D() {
     const [data, setData] = useState({});
     const [activeColor, setActiveColor] = useState(null)
     const { id } = useParams()
+    const [loading,setLoading] = useState(false)
     
 
     useEffect(() => {
@@ -22,11 +24,14 @@ function Page3D() {
 
     const fetchData = async () => {
         try {
+            setLoading(true)
             const response = await fetch("/car/"+id);
             const jsonData = await response.json();
             setData(jsonData.car);
             setActiveColor(jsonData.car.colors[0])
+            setLoading(false)
         } catch (error) {
+            setLoading(false)
             console.error('Error fetching data:', error);
         }
     };
@@ -35,6 +40,7 @@ function Page3D() {
     const colorHandle = (color)=> setActiveColor(color)
     return (
         <div className={styles['page3D-container']}>
+        {loading && <Loading/>}
         <ArrowFont/>
         <Description car={data}/>
         <Suspense>

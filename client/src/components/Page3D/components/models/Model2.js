@@ -4,7 +4,7 @@ import { useGLTF } from "@react-three/drei";
 export function Model2({color}) {
   const { nodes, materials } = useGLTF("/models/porsche_911_gt3.glb");
   return (
-    <group dispose={null} scale={2}>
+    <group dispose={null} scale={2.6}>
       <mesh
         castShadow
         receiveShadow
