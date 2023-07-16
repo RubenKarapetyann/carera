@@ -7,6 +7,7 @@ import { useParams } from 'react-router';
 
 function Autoservice () {
     const [countryData, setMap] = useState(null)
+    const [selectedItem, setSelectedItem] = useState("")
     const { id } = useParams()
 
     useEffect(() => {
@@ -20,7 +21,10 @@ function Autoservice () {
     return (
         <div className={styles['autoservice']}>
             <div className={styles['autoservice-menu']}>
-                <AutoserviceList autoservices={countryData ? countryData["autoservices"] : null}/>
+                <AutoserviceList 
+                autoservices={countryData ? countryData["autoservices"] : null}
+                selectedItem={selectedItem}
+                setSelectedItem={setSelectedItem}/>
                 <Logo/>
             </div>
             <GoogleMap/>

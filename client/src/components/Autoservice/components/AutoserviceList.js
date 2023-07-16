@@ -3,9 +3,8 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from '../Autoservice.module.css';
 
-const AutoserviceList = ({autoservices}) => {
+const AutoserviceList = ({autoservices, selectedItem, setSelectedItem}) => {
     const [isOpen, setIsOpen] = useState(false);
-    const [selectedItem, setSelectedItem] = useState("")
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);  
