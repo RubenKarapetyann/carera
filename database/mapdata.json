@@ -1,58 +1,198 @@
 [
     {
         "country-name":"Armenia",
-        "country-id": "56"
+        "country-id": "56",
+        "autoservices": [
+            {
+                "name": "this be value of Armenia",
+                "coordinates": "01x05y"
+            },
+            {
+                "name": "this be value2 of Armenia",
+                "coordinates": "01x05y"
+            }
+        ]
     },
     {
         "country-name":"Georgia",
-        "country-id": "42"
+        "country-id": "42",
+        "autoservices": [
+            {
+                "name": "this be value of Georgia",
+                "coordinates": "01x05y"
+            },
+            {
+                "name": "this be value2 of Georgia",
+                "coordinates": "01x05y"
+            }
+        ]
     },
     {
         "country-name":"Lebanon",
-        "country-id":"45"
+        "country-id":"45",
+        "autoservices": [
+            {
+                "name": "this be value of Lebanon",
+                "coordinates": "01x05y"
+            },
+            {
+                "name": "this be value2 of Lebanon",
+                "coordinates": "01x05y"
+            }
+        ]
     },
     {
         "country-name":"SaudiArabia",
-        "country-id": "48"
+        "country-id": "48",
+        "autoservices": [
+            {
+                "name": "this be value of SaudiArabia",
+                "coordinates": "01x05y"
+            },
+            {
+                "name": "this be value2 of SaudiArabia",
+                "coordinates": "01x05y"
+            }
+        ]
     },
     {
         "country-name":"UAE",
-        "country-id": "49"
+        "country-id": "49",
+        "autoservices": [
+            {
+                "name": "this be value of UAE",
+                "coordinates": "01x05y"
+            },
+            {
+                "name": "this be value2 of UAE",
+                "coordinates": "01x05y"
+            }
+        ]
     },
     {
         "country-name":"Egypt",
-        "country-id": "121"
+        "country-id": "121",
+        "autoservices": [
+            {
+                "name": "this be value of Egypt",
+                "coordinates": "01x05y"
+            },
+            {
+                "name": "this be value2 of Egypt",
+                "coordinates": "01x05y"
+            }
+        ]
     },
     {
         "country-name":"Greece",
-        "country-id": "21"
+        "country-id": "21",
+        "autoservices": [
+            {
+                "name": "this be value of Greece",
+                "coordinates": "01x05y"
+            },
+            {
+                "name": "this be value2 of Greece",
+                "coordinates": "01x05y"
+            }
+        ]
     },
     {
         "country-name":"Germany",
-        "country-id": "29"
+        "country-id": "29",
+        "autoservices": [
+            {
+                "name": "this be value of Germany",
+                "coordinates": "01x05y"
+            },
+            {
+                "name": "this be value2 of Germany",
+                "coordinates": "01x05y"
+            }
+        ]
     },
     {
         "country-name":"France",
-        "country-id": "32"
+        "country-id": "32",
+        "autoservices": [
+            {
+                "name": "this be value of France",
+                "coordinates": "01x05y"
+            },
+            {
+                "name": "this be value2 of France",
+                "coordinates": "01x05y"
+            }
+        ]
     },
     {
         "country-name":"Colombia",
-        "country-id": "104"
+        "country-id": "104",
+        "autoservices": [
+            {
+                "name": "this be value of Colombia",
+                "coordinates": "01x05y"
+            },
+            {
+                "name": "this be value2 of Colombia",
+                "coordinates": "01x05y"
+            }
+        ]
     },
     {
         "country-name":"Perou",
-        "country-id": "110"
+        "country-id": "110",
+        "autoservices": [
+            {
+                "name": "this be value of Perou",
+                "coordinates": "01x05y"
+            },
+            {
+                "name": "this be value2 of Perou",
+                "coordinates": "01x05y"
+            }
+        ]
     },
     {
         "country-name":"Chile",
-        "country-id": "115"
+        "country-id": "115",
+        "autoservices": [
+            {
+                "name": "this be value of Chile",
+                "coordinates": "01x05y"
+            },
+            {
+                "name": "this be value2 of Chile",
+                "coordinates": "01x05y"
+            }
+        ]
     },
     {
         "country-name":"China",
-        "country-id": "81"
+        "country-id": "81",
+        "autoservices": [
+            {
+                "name": "this be value of China",
+                "coordinates": "01x05y"
+            },
+            {
+                "name": "this be value2 of China",
+                "coordinates": "01x05y"
+            }
+        ]
     },
     {
         "country-name":"Japon",
-        "country-id": "82"
+        "country-id": "82",
+        "autoservices": [
+            {
+                "name": "this be value of Japon",
+                "coordinates": "01x05y"
+            },
+            {
+                "name": "this be value2 of Japon",
+                "coordinates": "01x05y"
+            }
+        ]
     }
 ]
