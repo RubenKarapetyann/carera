@@ -4,10 +4,12 @@
         "country-id": "56",
         "autoservices": [
             {
+                "id": 1,
                 "name": "this be value of Armenia",
                 "coordinates": "01x05y"
             },
             {
+                "id": 2,
                 "name": "this be value2 of Armenia",
                 "coordinates": "01x05y"
             }
@@ -18,10 +20,12 @@
         "country-id": "42",
         "autoservices": [
             {
+                "id": 3,
                 "name": "this be value of Georgia",
                 "coordinates": "01x05y"
             },
             {
+                "id": 4,
                 "name": "this be value2 of Georgia",
                 "coordinates": "01x05y"
             }
@@ -32,10 +36,12 @@
         "country-id":"45",
         "autoservices": [
             {
+                "id": 5,
                 "name": "this be value of Lebanon",
                 "coordinates": "01x05y"
             },
             {
+                "id": 6,
                 "name": "this be value2 of Lebanon",
                 "coordinates": "01x05y"
             }
@@ -46,10 +52,12 @@
         "country-id": "48",
         "autoservices": [
             {
+                "id": 7,
                 "name": "this be value of SaudiArabia",
                 "coordinates": "01x05y"
             },
             {
+                "id": 8,
                 "name": "this be value2 of SaudiArabia",
                 "coordinates": "01x05y"
             }
@@ -60,10 +68,12 @@
         "country-id": "49",
         "autoservices": [
             {
+                "id": 9,
                 "name": "this be value of UAE",
                 "coordinates": "01x05y"
             },
             {
+                "id": 10,
                 "name": "this be value2 of UAE",
                 "coordinates": "01x05y"
             }
@@ -74,10 +84,12 @@
         "country-id": "121",
         "autoservices": [
             {
+                "id": 11,
                 "name": "this be value of Egypt",
                 "coordinates": "01x05y"
             },
             {
+                "id": 12,
                 "name": "this be value2 of Egypt",
                 "coordinates": "01x05y"
             }
@@ -88,10 +100,12 @@
         "country-id": "21",
         "autoservices": [
             {
+                "id": 13,
                 "name": "this be value of Greece",
                 "coordinates": "01x05y"
             },
             {
+                "id": 14,
                 "name": "this be value2 of Greece",
                 "coordinates": "01x05y"
             }
@@ -102,10 +116,12 @@
         "country-id": "29",
         "autoservices": [
             {
+                "id": 15,
                 "name": "this be value of Germany",
                 "coordinates": "01x05y"
             },
             {
+                "id": 16,
                 "name": "this be value2 of Germany",
                 "coordinates": "01x05y"
             }
@@ -116,10 +132,12 @@
         "country-id": "32",
         "autoservices": [
             {
+                "id": 17,
                 "name": "this be value of France",
                 "coordinates": "01x05y"
             },
             {
+                "id": 18,
                 "name": "this be value2 of France",
                 "coordinates": "01x05y"
             }
@@ -130,10 +148,12 @@
         "country-id": "104",
         "autoservices": [
             {
+                "id": 19,
                 "name": "this be value of Colombia",
                 "coordinates": "01x05y"
             },
             {
+                "id": 20,
                 "name": "this be value2 of Colombia",
                 "coordinates": "01x05y"
             }
@@ -144,10 +164,12 @@
         "country-id": "110",
         "autoservices": [
             {
+                "id": 21,
                 "name": "this be value of Perou",
                 "coordinates": "01x05y"
             },
             {
+                "id": 22,
                 "name": "this be value2 of Perou",
                 "coordinates": "01x05y"
             }
@@ -158,10 +180,12 @@
         "country-id": "115",
         "autoservices": [
             {
+                "id": 23,
                 "name": "this be value of Chile",
                 "coordinates": "01x05y"
             },
             {
+                "id": 24,
                 "name": "this be value2 of Chile",
                 "coordinates": "01x05y"
             }
@@ -172,10 +196,12 @@
         "country-id": "81",
         "autoservices": [
             {
+                "id": 25,
                 "name": "this be value of China",
                 "coordinates": "01x05y"
             },
             {
+                "id": 26,
                 "name": "this be value2 of China",
                 "coordinates": "01x05y"
             }
@@ -186,10 +212,12 @@
         "country-id": "82",
         "autoservices": [
             {
+                "id": 27,
                 "name": "this be value of Japon",
                 "coordinates": "01x05y"
             },
             {
+                "id": 28,
                 "name": "this be value2 of Japon",
                 "coordinates": "01x05y"
             }
