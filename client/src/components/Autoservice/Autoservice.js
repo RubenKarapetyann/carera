@@ -20,7 +20,7 @@ function Autoservice () {
     return (
         <div className={styles['autoservice']}>
             <div className={styles['autoservice-menu']}>
-                <AutoserviceList/>
+                <AutoserviceList autoservices={countryData ? countryData["autoservices"] : null}/>
                 <Logo/>
             </div>
             <GoogleMap/>
