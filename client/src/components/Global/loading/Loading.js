@@ -1,8 +1,10 @@
-import "./Loading.css"
+import styles from "./Loading.module.css"
 
 const Loading = ()=>{
     return (
-        <p></p>
+        <div className={styles["loading-container"]}>
+            Loading...
+        </div>
     )
 }
 

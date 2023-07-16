@@ -8,6 +8,7 @@ import Text from '../Global/Text'
 import Categories from './Categories/Categories'
 import { useEffect, useState } from 'react'
 import { CATEGORIES } from '../../constants/constants'
+import Loading from '../Global/loading/Loading'
 
 function View() {
   const [cardData, setCardData] = useState([])
@@ -63,6 +64,7 @@ function View() {
 
   return (
     <div className={styles['view-container']}>
+      <Loading/>
       <div className={styles['search']}>
         <Search onSearch={handleSearch} />
       </div>
