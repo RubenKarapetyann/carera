@@ -15,20 +15,13 @@ const AutoserviceList = ({autoservices}) => {
                 <h1 className={styles['autoservice-text']}>Autoservice-name</h1>
                 <div onClick={toggleMenu}><FontAwesomeIcon className={styles['arrow-icon']} icon={faChevronDown}/></div>
             </div>
-            {isOpen && (
+            {isOpen && 
                 <div>
                     <ul className={styles['menu-list']}>
-                    <li><p>Menu item 1</p></li>
-                    <li><p>Menu item 2</p></li>
-                    <li><p>Menu item 3</p></li>
-                    <li><p>Menu item 4</p></li>
-                    <li><p>Menu item 5</p></li>
-                    <li><p>Menu item 6</p></li>
-                    <li><p>Menu item 7</p></li>
+                        {autoservices && autoservices.map(autoservice => <li><p>{autoservice["name"]}</p></li>)}
                     </ul>
                 </div>
-                
-            )}
+            }
         </div>
     );
 };
