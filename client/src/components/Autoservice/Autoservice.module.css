@@ -52,10 +52,6 @@
     cursor: pointer;
 }
 
-.menu-list > li:hover{
-    background-color: var(--rust);
-}
-
 .menu-list {
     position: absolute;
     background-color: rgb(0, 0, 0);

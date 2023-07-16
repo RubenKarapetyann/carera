@@ -15,6 +15,10 @@ const AutoserviceList = ({autoservices}) => {
         setSelectedItem(name)
     }
 
+    const styleChange = (name) => {
+        return selectedItem === name ? "var(--rust)" : false 
+    }
+
     return (
         <div className={styles['autoservice-container']}>
             <div className={styles['menu-container']}>
@@ -24,7 +28,7 @@ const AutoserviceList = ({autoservices}) => {
             {isOpen && 
                 <div>
                     <ul className={styles['menu-list']}>
-                        {autoservices && autoservices.map(autoservice => <li key={autoservice["id"]} onClick={() => handleSelectItem(autoservice["name"])}><p>{autoservice["name"]}</p></li>)}
+                        {autoservices && autoservices.map(autoservice => <li key={autoservice["id"]} onClick={() => handleSelectItem(autoservice["name"])} style={{backgroundColor: styleChange(autoservice["name"])}}><p>{autoservice["name"]}</p></li>)}
                     </ul>
                 </div>
             }
