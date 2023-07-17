@@ -4,7 +4,7 @@ const GoogleMap = ({autoservices, selectedItem}) => {
     const findRightCoords = () => {
         if(selectedItem){
             for(const i in autoservices){
-                if(autoservices[i]["name"] === selectedItem ) return autoservices[i]["coordinates"]
+                if(autoservices[i]["id"] === selectedItem ) return autoservices[i]["coordinates"]
             }
         }
     }

@@ -22,8 +22,8 @@ const AutoserviceList = ({autoservices, selectedItem, setSelectedItem}) => {
                         {autoservices && 
                         autoservices.map(autoservice => 
                         <li key={autoservice["id"]} 
-                        onClick={() => setSelectedItem(autoservice["name"])} 
-                        style={{backgroundColor: selectedItem === autoservice["name"]? "var(--rust)" : false}}>
+                        onClick={() => setSelectedItem(autoservice["id"])} 
+                        style={{backgroundColor: selectedItem === autoservice["id"]? "var(--rust)" : false}}>
                         <p>{autoservice["name"]}</p></li>)}
                     </ul>
                 </div>

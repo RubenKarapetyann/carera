@@ -7,7 +7,7 @@ import { useParams } from 'react-router';
 
 function Autoservice () {
     const [countryData, setCountryData] = useState(null)
-    const [selectedItem, setSelectedItem] = useState("")
+    const [selectedItem, setSelectedItem] = useState(0)
     const { id } = useParams()
 
     useEffect(() => {
