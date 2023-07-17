@@ -27,7 +27,9 @@ function Autoservice () {
                 setSelectedItem={setSelectedItem}/>
                 <Logo/>
             </div>
-            <GoogleMap/>
+            <GoogleMap 
+            autoservices={countryData ? countryData["autoservices"] : null}
+            selectedItem={selectedItem}/>
         </div>
     )
 }
