@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 
 function Autoservice () {
-    const [countryData, setMap] = useState(null)
+    const [countryData, setCountryData] = useState(null)
     const [selectedItem, setSelectedItem] = useState("")
     const { id } = useParams()
 
@@ -14,7 +14,7 @@ function Autoservice () {
         fetch("/map")
         .then(response => response.json())
         .then(res => { 
-            res.mapdata.map(obj => obj["country-id"] === id ? setMap(obj) : null)
+            res.mapdata.map(obj => obj["country-id"] === id ? setCountryData(obj) : null)
         })
     }, [])
 
