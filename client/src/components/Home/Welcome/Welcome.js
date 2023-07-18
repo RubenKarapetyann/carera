@@ -29,8 +29,12 @@ function Welcome () {
           </div>
           <WelcomeImage src={carImage} imageClassName={styles['welcome-img']} alt="Car"/>
           <div className={styles["welcome-logos"]}>
-          <WelcomeImage src={logo1} imageClassName={styles['welcome-logo']} alt="logo"/>
-          <WelcomeImage src={logo2} imageClassName={styles['welcome-logo']} alt="logo"/>
+          <Link to ="#racePart" smooth>
+            <WelcomeImage src={logo1} imageClassName={styles['welcome-logo']} alt="logo"/>
+          </Link>
+          <Link to ="#racePart" smooth>
+            <WelcomeImage src={logo2} imageClassName={styles['welcome-logo']} alt="logo"/>
+          </Link>
           </div>
         </div>
       </div>
