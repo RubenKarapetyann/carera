@@ -11,7 +11,7 @@ const GoogleMap = () => {
                 loading="lazy"
             ></iframe>
         </div>
-        
+
     );
 };
 
