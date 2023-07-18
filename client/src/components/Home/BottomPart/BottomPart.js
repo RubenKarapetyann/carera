@@ -1,7 +1,7 @@
 import styles from './BottomPart.module.css';
-import icon1 from '../../../images/youtube.png';
-import icon2 from '../../../images/twitter.png';
-import icon3 from '../../../images/linkedin.png';
+import icon1 from '../../../images/youtube.svg';
+import icon2 from '../../../images/telegram.svg';
+import icon3 from '../../../images/linkedin.svg';
 import Text from '../../Global/Text';
 import Icons from '../BottomPart/components/Icons';
 
