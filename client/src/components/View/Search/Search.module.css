@@ -25,7 +25,8 @@
 .search-icon,
 .search-icon-input {
     width: 20px;
-    height: 20px;  
+    height: 20px; 
+    cursor: pointer; 
 }
 
 .search-icon-input {
