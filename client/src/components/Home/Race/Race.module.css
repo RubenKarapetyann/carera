@@ -1,0 +1,37 @@
+.race-container {
+    width: 1366px;
+    height: 689px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -117px;
+}
+
+.race-text {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    width: 992px;
+    position: absolute;
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: white;
+}
+
+.race-video {
+    display: flex;
+}
+
+.video {
+    width: 1366px;
+    height: 676px;
+}
+
+.gradient {
+    width: 1366px;
+    height: 512px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.95) 100%);
+}
