@@ -32,4 +32,24 @@
     height: 280px;
     background-color: var(--gamboge);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.feedback-email-input{
+    height: 30px;
+}
+.feedback-input{
+    width: 269px;
+    border: none;
+    box-sizing: border-box;
+    padding: 7px 0 8px 10px;
+    font-size: 12px;
+}
+.feedback-input:focus{
+    outline: 0;
+}
+.feedback-description-input{
+    height: 179px;
+    resize: none;
 }
