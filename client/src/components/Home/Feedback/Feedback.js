@@ -10,10 +10,11 @@ function Feedback (){
             <div className={styles["feedback-button"]}>
                 <span className={styles["feedback-button-text"]}>feedback</span>
             </div>
-            <div className={styles["feedback-form-container"]}>
+            <form className={styles["feedback-form-container"]}>
                 <input placeholder="yourmailname@gmail.com" className={`${styles["feedback-email-input"]} ${styles["feedback-input"]}`} required type="email"/>
                 <textarea placeholder="write your opinion about the site" className={`${styles["feedback-description-input"]} ${styles["feedback-input"]}`} required/>
-            </div>
+                <button className={styles["feedback-submit-button"]}>send</button>
+            </form>
         </div>
     )
 }

@@ -24,7 +24,7 @@
     right: 0;
     top: 50%;
     bottom: 50%;
-    width: 335px;
+    width: auto;
     z-index: 10;
 }
 .feedback-form-container{
@@ -52,4 +52,23 @@
 .feedback-description-input{
     height: 179px;
     resize: none;
+}
+.feedback-submit-button{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    background-color: var(--tawny);
+    width: 269px;
+    height: 30px;
+    cursor: pointer;
+}
+.feedback-submit-button:hover{
+    background-color: #be4f00;
+}
+.feedback-submit-button:active{
+    background-color: #ad4800;
 }
