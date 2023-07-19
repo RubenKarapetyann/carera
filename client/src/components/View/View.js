@@ -8,19 +8,28 @@ import Text from '../Global/Text'
 import Categories from './Categories/Categories'
 import { useEffect, useState } from 'react'
 import { CATEGORIES } from '../../constants/constants'
+import Loading from '../Global/loading/Loading'
 
 function View() {
   const [cardData, setCardData] = useState([])
   const [filteredCardData, setFilteredCardData] = useState([])
   const [active, setActive] = useState(CATEGORIES[0].activeName)
+  const [loading, setLoading] = useState(false)
 
   useEffect(()=>{
-    fetch("/cars")
+    try {
+      setLoading(true)
+      fetch("/cars")
       .then(response=>response.json())
       .then(res=>{
         setCardData(res.cars)
         setFilteredCardData(res.cars)
+        setLoading(false)
       })
+    }catch(err){
+      setLoading(false)
+    }
+
   },[])
 
   const filterByCategorie = (activname, arrdata) => {
@@ -63,12 +72,15 @@ function View() {
 
   return (
     <div className={styles['view-container']}>
+      {loading && <Loading/>}
       <div className={styles['search']}>
         <Search onSearch={handleSearch} />
       </div>
       <div className={styles['card']}>
         <Categories state={active} statefunc={setActive} categories={CATEGORIES} filterByCategorie={filterByCategorie}/>
-        {renderCards()}
+        <div className={styles['cards-container']}>
+          {renderCards()}
+        </div>
       </div>
     </div>
   );

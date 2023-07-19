@@ -39,3 +39,9 @@
 .search {
     margin-bottom: 71px;
 }
+
+.cards-container{
+    display: flex;
+    gap: 36px;
+    min-width: 828px;
+}

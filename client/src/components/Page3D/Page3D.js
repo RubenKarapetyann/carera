@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react';
 import { OrbitControls } from '@react-three/drei';
 import { CARS_MODELS } from '../../constants/constants';
 import Loading from '../Global/loading/Loading';
+import { DoubleSide } from 'three';
 
 function Page3D() {
     const [data, setData] = useState({});
@@ -49,10 +50,11 @@ function Page3D() {
                 position : [8,5,7]
             }}>
                 {Object.keys(data).length && CARS_MODELS[data.model](activeColor)}
-                <directionalLight intensity={0.5} position={[8,5,7]}/>
+                <directionalLight intensity={0.5} position={[2,2,2]}/>
                 <directionalLight intensity={1} position={[5,8,5]}/>
                 <ambientLight intensity={1}/>
                 <OrbitControls enableZoom={false}/>
+
             </Canvas>
         </Suspense>
         <CarColor colorHandle={colorHandle} colors={data.colors} />
