@@ -21,13 +21,13 @@
         "autoservices": [
             {
                 "id": 3,
-                "name": "World's Best Auto Salon",
-                "coordinates": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1729535.8408946511!2d-83.7055353!3d32.150307!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88fb75e6b413c1e7%3A0xb3a233f2e4f8aaa4!2sWorld&#39;s%20Best%20Auto%20Salon-%20Mobile%20Car%20Detailing!5e0!3m2!1sen!2sam!4v1689590130301!5m2!1sen!2sam"
+                "name": "Hyundai Auto Georgia",
+                "coordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d762402.9639799255!2d43.60299283646197!3d41.7175716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446dd89b5a8caf%3A0xde98762b52082442!2sHyundai%20Auto%20Georgia!5e0!3m2!1sen!2sam!4v1689792866030!5m2!1sen!2sam"
             },
             {
                 "id": 4,
-                "name": "Fast Track Auto Salon",
-                "coordinates": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1747125.529647088!2d-84.7886254!3d31.2109052!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88eff07c0b838495%3A0x53258b0f6a27793a!2sFast%20Track%20Auto%20Salon%20%26%20Sales!5e0!3m2!1sen!2sam!4v1689590153415!5m2!1sen!2sam"
+                "name": "Copart Lounge Rustavi",
+                "coordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d762402.9639799255!2d43.60299283646197!3d41.7175716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4044079d78605e2d%3A0x9764df8799cd7ad7!2sCopart%20Lounge%20Rustavi%20-%20Operated%20by%20Caucasus%20Auto%20Import!5e0!3m2!1sen!2sam!4v1689793030264!5m2!1sen!2sam"
             }
         ]
     },
@@ -195,15 +195,15 @@
         "country-name":"China",
         "country-id": "81",
         "autoservices": [
-            {
+           {
                 "id": 25,
-                "name": "Tai Chong Motor",
-                "coordinates": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3986.890380962416!2d102.2484454!3d2.1951726!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1f1df0d2cbf51%3A0x169d71e00236f220!2sTai%20Chong%20Motor!5e0!3m2!1sen!2sam!4v1689590542482!5m2!1sen!2sam"
+                "name": "Hong Kong Car Service",
+                "coordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118085.24853968076!2d114.05264834473057!3d22.347434962270004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404007e8dd26b51%3A0x8e67ab34529f6a09!2sHong%20Kong%20Car%20Service!5e0!3m2!1sen!2sam!4v1689793585176!5m2!1sen!2sam"
             },
             {
                 "id": 26,
-                "name": "Syarikat Perniagaan Teo",
-                "coordinates": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3986.885962531474!2d102.2486022!3d2.1968285!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1f1df5088c4f3%3A0xc5c76185d7b66696!2sSyarikat%20Perniagaan%20Teo%20Adik%20Beradik!5e0!3m2!1sen!2sam!4v1689590558430!5m2!1sen!2sam"
+                "name": "Toyota Yuen Long Service",
+                "coordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1635822.822665664!2d112.070653731656!3d22.30400012175904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fb2d5af496e3%3A0xf9b7e8d4079053cd!2sToyota%20Yuen%20Long%20Service%20Centre%20(Mechanical)!5e0!3m2!1sen!2sam!4v1689793660742!5m2!1sen!2sam"
             }
         ]
     },
@@ -213,13 +213,13 @@
         "autoservices": [
             {
                 "id": 27,
-                "name": "Thai-Trung Japan",
-                "coordinates": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30501439.491843436!2d66.8932961!3d21.0598677!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a9b1c2c69021%3A0x67e018ae21a9bcb1!2sTh%C3%A1i-Trung%20Japan%20Auto%20Service!5e0!3m2!1sen!2sam!4v1689590582330!5m2!1sen!2sam"
+                "name": "Kansai Service",
+                "coordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28836830.964637026!2d115.67461181580526!3d28.081852781843267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60014c7f2ab3520b%3A0x4cc878f69bd66850!2sKansai%20Service!5e0!3m2!1sen!2sam!4v1689794099057!5m2!1sen!2sam"
             },
             {
                 "id": 28,
-                "name": "TNHH TRUNGJAPAN",
-                "coordinates": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30501439.491843436!2d66.8932961!3d21.0598677!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a9d878be6f19%3A0xedf79eb2225c4c32!2sC%C3%94NG%20TY%20TNHH%20TRUNGJAPAN%20AUTO%20TH%E1%BA%BE%20GI%E1%BB%9AI%20XE%20SANG!5e0!3m2!1sen!2sam!4v1689590604258!5m2!1sen!2sam"
+                "name": "Diolabs Car Services",
+                "coordinates": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28836830.964637026!2d115.67461181580526!3d28.081852781843267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601863cdc8cd50f1%3A0xa018f709ed23a87a!2sDiolabs%20Car%20Services%20(Private%20Transport%20Haneda%20%26%20Narita%20Airport)!5e0!3m2!1sen!2sam!4v1689794155996!5m2!1sen!2sam" 
             }
         ]
     }
