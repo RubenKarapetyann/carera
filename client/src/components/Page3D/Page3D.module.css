@@ -24,6 +24,7 @@
 }
 
 .description-container {
+    z-index: 3;
     position: absolute;
     width: 198px;
     height: max-content;
