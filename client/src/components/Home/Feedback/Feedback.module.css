@@ -1,11 +1,6 @@
 .feedback-button{
     width: 25px;
     height: 100px;
-    position: fixed;
-    z-index: 10;
-    right: 0;
-    top: 50%;
-    bottom: 50%;
     background-color: var(--tawny);
     display: flex;
     justify-content: center;
@@ -21,4 +16,20 @@
     line-height: normal;
     user-select: none;
     cursor: pointer;
+}
+.feedback-container{
+    position: fixed;
+    display: flex;
+    height: 280px;
+    right: 0;
+    top: 50%;
+    bottom: 50%;
+    width: 335px;
+    z-index: 10;
+}
+.feedback-form-container{
+    width: 310px;
+    height: 280px;
+    background-color: var(--gamboge);
+    display: flex;
 }
