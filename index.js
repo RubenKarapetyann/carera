@@ -68,8 +68,20 @@ app.get(MAP, (req,res)=>{
 })
 
 app.post(FEEDBACK,(req,res)=>{
+    const mailOptions = {
+        from: 'carera.official.biz@gmail.com',
+        to: req.body.email,
+        subject: 'response to your feedback',
+        text: req.body.description
+    }
     setTimeout(()=>{
-        console.log("feedback");
+        transporter.sendMail(mailOptions, function(error, info){
+            if (error) {
+              console.log(error);
+            } else {
+              console.log('Email sent: ' + info.response);
+            }
+          })
     },60000)
 
     res.send({
