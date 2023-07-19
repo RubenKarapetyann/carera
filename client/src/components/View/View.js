@@ -68,7 +68,9 @@ function View() {
       </div>
       <div className={styles['card']}>
         <Categories state={active} statefunc={setActive} categories={CATEGORIES} filterByCategorie={filterByCategorie}/>
-        {renderCards()}
+        <div className={styles['cards-container']}>
+          {renderCards()}
+        </div>
       </div>
     </div>
   );

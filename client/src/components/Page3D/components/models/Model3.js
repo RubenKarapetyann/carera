@@ -86,12 +86,14 @@ export function Model3({color}) {
         receiveShadow
         geometry={nodes.Object_12.geometry}
         material={materials.Rims}
+        scale={1.25}
       />
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Object_14.geometry}
         material={materials.Tyres}
+        scale={1.25}
       />
       <mesh
         castShadow
