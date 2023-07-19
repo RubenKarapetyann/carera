@@ -5,10 +5,12 @@ import Map from './Map/Map'
 import Race from './Race/Race'
 import Partners from './Partners/Partners'
 import BottomPart from './BottomPart/BottomPart'
+import Feedback from './Feedback/Feedback'
 
 function Home (){
     return (
         <div className={styles["home-container"]}>
+            <Feedback/>
             <Welcome/>
             <Graph/>
             <Map/>
