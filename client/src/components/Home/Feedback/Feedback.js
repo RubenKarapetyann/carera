@@ -25,7 +25,11 @@ function Feedback (){
             })
             const res = await response.json()
             if(res.access){
-                console.log("feedback sent");
+                setInputData({
+                    email : "",
+                    description : ""
+                })
+                setIsActiveFeedback(false)
             }
         }catch(err){
             console.log(err);
