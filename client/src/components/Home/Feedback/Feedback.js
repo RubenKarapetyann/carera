@@ -6,7 +6,9 @@ function Feedback (){
     const [isActiveFeedback, setIsActiveFeedback] = useState(false)
 
     return (
-        <>Feedback</>
+        <div className={styles["feedback-button"]}>
+            <span className={styles["feedback-button-text"]}>feedback</span>
+        </div>
     )
 }
 
