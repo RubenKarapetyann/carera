@@ -1,0 +1,25 @@
+.partners-container {
+    width: 1366px;
+    height: 259px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 149.95px;
+    margin-top: 100px;
+    
+}
+
+.partners-image1 {
+    width: 214.753px;
+    height: 109.562px;
+}
+
+.partners-image2 {
+    width: 153.907px;
+    height: 122.451px;
+}
+
+.partners-image3 {
+    width: 137.442px;
+    height: 137.489px;
+}
