@@ -1,10 +1,12 @@
 import express from "express"
-import { CARS, TEST, CAR, MAP } from "./contants/routes-contants.js"
+import { CARS, TEST, CAR, MAP, FEEDBACK } from "./contants/routes-contants.js"
 import fs from "fs"
 import nodemailer from "nodemailer"
 
 const transporter = nodemailer.createTransport({
     service: 'gmail',
+    host: 'smtp.gmail.com',
+    port: 465,
     auth: {
       user: 'carera.official.biz@gmail.com',
       pass: process.env.EMAIL_PASSWORD
@@ -13,6 +15,7 @@ const transporter = nodemailer.createTransport({
 
 const app = express()
 app.use(express.static("./images"))
+app.use(express.json())
 
 app.get(TEST,(req,res)=>{
     res.send({
@@ -68,12 +71,14 @@ app.get(MAP, (req,res)=>{
 })
 
 app.post(FEEDBACK,(req,res)=>{
+    console.log(req.body);
     const mailOptions = {
         from: 'carera.official.biz@gmail.com',
         to: req.body.email,
         subject: 'response to your feedback',
-        text: req.body.description
+        text: "Thank you for your feedback. We will study this situation and take the necessary measures to improve the quality of our services."
     }
+    
     setTimeout(()=>{
         transporter.sendMail(mailOptions, function(error, info){
             if (error) {
@@ -82,7 +87,7 @@ app.post(FEEDBACK,(req,res)=>{
               console.log('Email sent: ' + info.response);
             }
           })
-    },60000)
+    },120000)
 
     res.send({
         access : true
