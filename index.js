@@ -1,6 +1,7 @@
 import express from "express"
 import { CARS, TEST, CAR, MAP } from "./contants/routes-contants.js"
 import fs from "fs"
+import nodemailer from "nodemailer"
 
 const app = express()
 app.use(express.static("./images"))
@@ -58,6 +59,15 @@ app.get(MAP, (req,res)=>{
     }
 })
 
+app.post(FEEDBACK,(req,res)=>{
+    setTimeout(()=>{
+        console.log("feedback");
+    },60000)
+
+    res.send({
+        access : true
+    })
+})
 
 app.listen(process.env.PORT || 3010,()=>{
     console.log("server started on "+process.env.PORT+" port");
