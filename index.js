@@ -3,6 +3,14 @@ import { CARS, TEST, CAR, MAP } from "./contants/routes-contants.js"
 import fs from "fs"
 import nodemailer from "nodemailer"
 
+const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: 'carera.official.biz@gmail.com',
+      pass: process.env.EMAIL_PASSWORD
+    }
+  });
+
 const app = express()
 app.use(express.static("./images"))
 
